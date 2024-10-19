@@ -1,0 +1,13 @@
+{
+  "name": "horstheistermann-jslib-poc",
+  "version": "1.0.0",
+  "repository": "",
+  "author": "Horst Heistermann",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
